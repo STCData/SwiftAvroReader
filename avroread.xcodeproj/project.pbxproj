@@ -25,7 +25,6 @@
 /* Begin PBXFileReference section */
 		9A8B268829AF62A700FC977A /* avroread */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = avroread; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A8B268B29AF62A700FC977A /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		9ABEC6F829AF654100CA39BA /* SwiftAvroReader */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = SwiftAvroReader; path = ../SwiftAvroReader; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,7 +41,6 @@
 		9A8B267F29AF62A700FC977A = {
 			isa = PBXGroup;
 			children = (
-				9ABEC6F729AF654100CA39BA /* Packages */,
 				9A8B268A29AF62A700FC977A /* avroread */,
 				9A8B268929AF62A700FC977A /* Products */,
 			);
@@ -62,14 +60,6 @@
 				9A8B268B29AF62A700FC977A /* main.swift */,
 			);
 			path = avroread;
-			sourceTree = "<group>";
-		};
-		9ABEC6F729AF654100CA39BA /* Packages */ = {
-			isa = PBXGroup;
-			children = (
-				9ABEC6F829AF654100CA39BA /* SwiftAvroReader */,
-			);
-			name = Packages;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
