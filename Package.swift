@@ -19,6 +19,6 @@ let package = Package(
             dependencies: ["SwiftAvroCore"]),
         .testTarget(
             name: "SwiftAvroReaderTests",
-            dependencies: ["SwiftAvroReader"]),
+            dependencies: ["SwiftAvroReader", "SwiftAvroCore"]),
     ]
 )
