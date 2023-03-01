@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9A8760C329AF67C6000ABB36 /* SwiftAvroReader in Frameworks */ = {isa = PBXBuildFile; productRef = 9A8760C229AF67C6000ABB36 /* SwiftAvroReader */; };
 		9A8B268C29AF62A700FC977A /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A8B268B29AF62A700FC977A /* main.swift */; };
 /* End PBXBuildFile section */
 
@@ -32,6 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A8760C329AF67C6000ABB36 /* SwiftAvroReader in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +80,9 @@
 			dependencies = (
 			);
 			name = avroread;
+			packageProductDependencies = (
+				9A8760C229AF67C6000ABB36 /* SwiftAvroReader */,
+			);
 			productName = avroread;
 			productReference = 9A8B268829AF62A700FC977A /* avroread */;
 			productType = "com.apple.product-type.tool";
@@ -107,6 +112,7 @@
 			);
 			mainGroup = 9A8B267F29AF62A700FC977A;
 			packageReferences = (
+				9A8760C129AF67C6000ABB36 /* XCRemoteSwiftPackageReference "SwiftAvroReader" */,
 			);
 			productRefGroup = 9A8B268929AF62A700FC977A /* Products */;
 			projectDirPath = "";
@@ -286,6 +292,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		9A8760C129AF67C6000ABB36 /* XCRemoteSwiftPackageReference "SwiftAvroReader" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "file://./";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9A8760C229AF67C6000ABB36 /* SwiftAvroReader */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9A8760C129AF67C6000ABB36 /* XCRemoteSwiftPackageReference "SwiftAvroReader" */;
+			productName = SwiftAvroReader;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 9A8B268029AF62A700FC977A /* Project object */;
 }

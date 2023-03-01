@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "swiftavrocore",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/STCData/SwiftAvroCore",
+      "state" : {
+        "branch" : "master",
+        "revision" : "8e3e20d6e0ebe28979063c335fdb21673b71291d"
+      }
+    }
+  ],
+  "version" : 2
+}
